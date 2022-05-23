@@ -12,6 +12,8 @@ import seaborn
 from tabulate import tabulate
 from numpy import linalg as la
 
+print("The print that I forgot to delete")
+
 
 def disply_param_histogram(model, model_type):
     for param_name, param in model.params.items():
