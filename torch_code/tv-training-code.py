@@ -16,7 +16,7 @@ import utils
 import transforms as T
 from torch_code.pytorch_adaptive_optim import SGD
 
-
+print("i forgot to delete this print in tv training code")
 class PennFudanDataset(object):
     def __init__(self, root, transforms):
         self.root = root
